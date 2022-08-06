@@ -19,8 +19,9 @@ function App() {
 					<Route exact path="/" element={<Home />} />
 					<Route path="/search" element={<Search />} />
 				</Routes>
+				{/* <SearchMovies /> */}
 			</BrowserRouter>
-			{/* <SearchMovies /> */}
+
 			{/* <Intro />
 			<Content />
 			<MoviesDetail
